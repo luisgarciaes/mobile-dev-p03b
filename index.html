@@ -15,7 +15,8 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<div class="container-fluid p-0 bg-primary">
+  <nav class="container navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
     <a class="navbar-brand" href="#">Bootstrap</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,7 +24,7 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav mx-auto">
         <li class="nav-item active">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
@@ -52,7 +53,7 @@
     </div>
   </nav>
 
-
+</div>
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -100,10 +101,11 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-  <div class="container">
+
+  <div class="container mt-5">
     <div class="container d-flex justify-content-center flex-column">
-      <h1>Lorem, ipsum dolor</h1>
-      <p class="text-info">Lorem ipsum dolor sit amet,
+      <p class="display-3 d-flex justify-content-center">Lorem, ipsum dolor</p>
+      <p class="text-info d-flex justify-content-center text-center">Lorem ipsum dolor sit amet,
         consectetur adipiscing elit. Praesent sagittis eros et
         lectus sodales, sit amet mattis turpis luctus. Donec hendrerit,
         mauris ac bibendum ullamcorper, risus justo tempor tellus, a
@@ -111,7 +113,8 @@
         accumsan. Proin pharetra vestibulum accumsan.</p>
     </div>
   </div>
-  <div class="container">
+
+  <div class="container mb-5">
     <div class="row">
       <div class="col">
         <div class="card" style="width: 18rem;">
@@ -148,21 +151,23 @@
       </div>
     </div>
   </div>
-  <div class="container bg-light">
-    <div class="jumbotron-fluid">
-      <h1 class="display-4">Hello, world!</h1>
+  <div class="jumbotron m-0 py-0">
+    <div class="jumbotron jumbotron-fluid bg-muted pl-5">
+      <h1 class="display-3">Hello, world!</h1>
       <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
         featured content or information.</p>
       <hr class="my-4">
       <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
       <p class="lead">
-        <a class="btn btn-info btn-lg" href="#" role="button">Learn more</a>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
       </p>
     </div>
+
   </div>
-  <div class="container">
+
+  <div class="container mt-1 mb-5">
     <div class="container d-flex justify-content-center flex-column">
-      <h1 class="d-flex justify-content-center">Lorem, ipsum dolor</h1>
+      <p class="display-3 d-flex justify-content-center">Lorem, ipsum dolor.</p>
       <p class="text-info d-flex justify-content-center text-center">
         Lorem ipsum dolor sit amet,
         consectetur adipiscing elit. Praesent sagittis eros et
@@ -258,12 +263,13 @@
 
     </div>
   </div>
-  <footer class="container-fluid bg-dark text-light">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing
-       elit. Nihil, modi? Consequuntur quibusdam dolorem fugiat
-      provident error modi impedit cum qui nobis harum fugit
-       illum perferendis maxime, deleniti dolor, esse nisi.
-    </p>
+
+  <footer class="container-fluid bg-dark text-light m-0 justify-content-center text-center p-5">
+    Lorem ipsum dolor sit amet consectetur adipisicing
+    elit. Nihil, modi? Consequuntur quibusdam dolorem fugiat
+    provident error modi impedit cum qui nobis harum fugit
+    illum perferendis maxime, deleniti dolor, esse nisi.
+
   </footer>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
